@@ -1,0 +1,124 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Silkscreen&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Silkscreen&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Varela+Round&display=swap');
+body {
+    background-color: antiquewhite
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    font-family:'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+    list-style-type:none;
+    height: 65px;
+    background-color:purple;
+    color:aliceblue
+}
+
+    nav ul li{
+        padding:0 12px;
+    }
+
+    .brand img {
+        width: 65px;
+        padding: 0 8px;
+        
+    }
+
+.brand{
+    display:flex;
+    align-items:center;
+    font-size:25px;
+}
+
+.container {
+    min-height: 73vh;
+    background-color: lightyellow;
+    color: peachpuff;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image:url('../gack41.jpg');
+    background-repeat:no-repeat;
+    
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: lightpink;
+    color:white;
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.icons{
+    margin-top : 15px;
+}
+
+.icons i {
+    cursor:pointer;
+}
+
+#myProgressBar{
+    width:85vh;
+    cursor: pointer;
+}
+
+.songItemcontaner{
+    margin-top:74px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: cornflowerblue;
+    width: 120%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px
+}
+
+.songItem img{
+    width:45px;
+    margin:023px;
+    border-radius:25px
+}
+
+.timestam{
+
+    margin :0 25px;
+    cursor:pointer;
+
+}
+
+.songinfo {
+
+    position:absolute;
+    left:9vw;
+
+}
+
+.songinfo img{
+    opacity:0;
+    transition:opacity 0.9s ease-in;
+
+}
+
+
